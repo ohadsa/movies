@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+
+        android:icon="?attr/actionModeCopyDrawable"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="?android:attr/actionModeWebSearchDrawable"
+        android:title="search" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_heart_empty_white"
+        android:title="favorite" />
+
+
+</menu>

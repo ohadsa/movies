@@ -8,9 +8,6 @@ import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query
 
-val YOUTUBE_API_KEY = "AIzaSyAggR2Y-DGm2aPNel_2k2mH9K4M2-LzC0M"
-
-
 
 interface MovieApi {
     @GET("3/discover/movie?language=en&sort_by=popularity.desc")
